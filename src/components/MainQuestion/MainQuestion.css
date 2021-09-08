@@ -1,0 +1,13 @@
+.main-question {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-question__prediction {
+  font-weight: 300;
+  font-size: var(--primary-fs);
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 12px;
+}
