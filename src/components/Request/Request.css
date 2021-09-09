@@ -1,0 +1,29 @@
+.request {
+  display: flex;
+  justify-content: center;
+}
+
+.request__info {
+  max-width: 442px;
+  min-height: 437px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  position: relative;
+  padding: 128px 45px 84px 32px;
+}
+
+.request__image {
+  border-radius: 50%;
+  position: absolute;
+  top: -68px;
+  left: 153px;
+}
+
+.request__description {
+  font-size: var(--primary-fs);
+  line-height: 35px;
+}
+
+.request__description > span {
+  color: var(--gold-color);
+}

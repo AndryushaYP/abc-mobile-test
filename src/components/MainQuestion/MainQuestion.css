@@ -1,6 +1,8 @@
 .main-question {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
 }
 
 .main-question__prediction {
@@ -10,4 +12,48 @@
   text-align: center;
   letter-spacing: 0.1em;
   margin-top: 12px;
+  margin-bottom: 64px;
+}
+.main-question__image-container {
+  background-image: url(../../assets/star.svg);
+  background-position: center;
+  width: 345px;
+  height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-question__image {
+  width: 211px;
+  border-radius: 50%;
+}
+
+.main-question__title {
+  max-width: 500px;
+  min-height: 130px;
+  margin: 23px 0 40px 0;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--gold-color);
+}
+.main-question__title_strong {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.main-question__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 35px;
+}
+
+.main-question__span {
+  font-weight: 300;
+  font-size: var(--small-fs);
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
